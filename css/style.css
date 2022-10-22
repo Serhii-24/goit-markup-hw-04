@@ -100,11 +100,6 @@ letter-spacing: 0.03em;
 } 
 
 /* site nav */
-
-
-
-
-
 .link{    
 color: inherit;
 font-weight: 500;
@@ -116,9 +111,9 @@ text-decoration: none;
 }
 
 .link:hover{
-  background-color: currentColor;
 color:var(--accent-color);
 }
+
 
 
 
@@ -200,8 +195,6 @@ color: var(--accent-color);
   ),
   url("../images/hero.jpg");
   background-color: #2F303A66;
-  
- 
 }
 
 .title {
@@ -265,7 +258,7 @@ flex-wrap: wrap;
 }
 
 .section{
-  display:flex;
+display:flex;
 padding: 94px 0px 0px;
 
 }
@@ -331,7 +324,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   margin-right: 30px;
   background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px; ;
+  border-radius: 0px 0px 4px 4px; ;
 
 }
 .about-list :last-child{
@@ -371,14 +364,17 @@ border-radius: 4px;
 border: none;
 }
 
-.button:hover, :focus{
+.button:hover{
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+border-radius: 4px;
 color: var(--primary-bg-color);
 background-color:var(--active-btm-color)
 
 }
+.button:focus{
+color: var(--primary-bg-color)
 
+}
 
 
 .button-primary{
@@ -456,13 +452,12 @@ color:var(--title-text-color);
 
 }
 .team-undercard {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  padding-bottom: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 30px;
 
- 
+
 }
 
 .box-list:not(:last-child){
